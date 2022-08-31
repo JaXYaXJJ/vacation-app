@@ -18,6 +18,7 @@ function Order() {
             Choose...
           </option>
           <option>Akureyri</option>
+          <option>Bodø</option>
           <option>Nuuk</option>
           <option>Malmö</option>
           <option>Oslo</option>
