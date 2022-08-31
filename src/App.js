@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import './App.css';
+import { Route, Routes } from "react-router-dom";
 import FilterPage from './components/FilterPage';
 import Header from './components/Header';
 import OpenPage from './components/OpenPage';
