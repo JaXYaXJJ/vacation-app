@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+
 function FilterPage() {
   return (
     <>
@@ -36,19 +37,21 @@ function FilterPage() {
         <tr>
           <th className="w-25">Date</th>
           <th className="w-25">Location</th>
-          <th className="w-50">Price</th>
-          <th></th>
+          <th className="w-25">Airline</th>
+          <th className="w-25">Price</th>
         </tr>
       </thead>
       <tbody>
         <tr className="bg-light">
         <td>01/10/2022</td>
         <td>Tórshavn, Faroe Islands</td>
+        <td>SAS</td>
         <td>$289</td>
         </tr>
         <tr className="bg-light">
         <td>02/10/2022</td>
         <td>Akureyri, Iceland</td>
+        <td>Icelandair</td>
         <td>$359</td>
         </tr>
       </tbody>

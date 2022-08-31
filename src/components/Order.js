@@ -1,3 +1,5 @@
+import './Order.css';
+
 function Order() {
   return (
     <div className="my-5">
@@ -6,9 +8,11 @@ function Order() {
         Quickly order a new vacation
       </p>
       
-      <div className="container orderForm my-5">
+      <div className="container orderForm my-5 w-50">
+        
         <h3 className="my-3">Billing address</h3>
-        <p>Vacation Packages</p>
+        <p>Nordic destinations</p>
+
         <select>
           <option disabled selected hidden>
             Choose...
@@ -24,9 +28,13 @@ function Order() {
           <option>Tromsø</option>
         </select>
         <p className="my-3">Name</p>
-        <input></input>
+        <input
+        type='name'
+        placeholder=' Full name' />
         <p className="my-3">Email (Optional)</p>
-        <input></input>
+        <input 
+        type='email'
+        placeholder=' your@email.com' />
         <br/>
         <div className="form-check form-check-inline my-3">
           <input
@@ -39,9 +47,9 @@ function Order() {
           </label>
         </div>
         <br/>
-        <button type="button" className="btn btn-primary my-3">Continue to checkout</button>
-
+        <button type="button" className="btn btn-success my-3">Continue to checkout</button>
       </div>
+
     </div>
   );
 }

@@ -1,0 +1,35 @@
+h1 {
+    text-decoration: underline solid 5px green;
+}
+
+.orderForm > select {
+    width: 600px;
+    height: 50px;
+}
+
+.orderForm > input {
+    width: 600px;
+    height: 50px;
+}
+
+.orderForm > input:focus {
+    outline-color: green;
+    outline-style: solid;
+    outline-width: 2px;
+    border: none;
+}
+
+.orderForm > button {
+    width: 600px;
+    height: 50px;
+}
+
+.form-check-input {
+    background-color: white !important;
+    box-shadow: none !important;
+    border: solid 1px gray !important;
+  }
+
+.form-check-input:checked {
+    background-color:green !important;
+}
