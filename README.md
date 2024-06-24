@@ -1,7 +1,7 @@
 <h1>VacationApp</h1> 
 
 <h4>
-  Demo project on the React course (<a href="https://www.hackeru.co.il/)">HackerU</a>).
+  Demo project on the React course (<a href="https://www.hackeru.co.il/">HackerU</a>).
 </h4>
 
 ###### Main Page
